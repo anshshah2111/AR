@@ -1,0 +1,190 @@
+{
+  "fundingSources": [
+    {
+      "id": "iccr-travel-grant",
+      "name": "ICCR Travel Grant",
+      "type": "indian-government-grant",
+      "covers": "Round-trip economy airfare for Indian artists ONLY",
+      "doesNotCover": ["Hotels", "Visa fees", "Honoraria", "Meals"],
+      "rangeUSD": "$15K-$30K equivalent (depends on number of artists)",
+      "probability": "high",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "applicationTimeline": "8-12 weeks before travel",
+      "applicationUrl": "https://iccr.gov.in/online-forms-links/travel-grant/guidelines",
+      "ourTiming": "Apply Week 4-6; for travel in Month 5",
+      "contactPath": "Via CGI Seattle or CGI SF endorsement",
+      "notes": "Most directly applicable; consulate endorsement is critical"
+    },
+    {
+      "id": "indian-focal-sponsor",
+      "name": "Indian Focal Sponsor",
+      "type": "private-sponsor",
+      "covers": "Flexible — can fund any line item",
+      "rangeUSD": "$50K-$100K",
+      "probability": "known",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "applicationTimeline": "Direct relationship",
+      "ourTiming": "Confirm structure in Week 1",
+      "contactPath": "You have the relationship",
+      "notes": "Already in scope per initiative brief; structure to be confirmed"
+    },
+    {
+      "id": "corp-sponsor-bay-area",
+      "name": "Corporate Sponsor #1 (Bay Area Tech)",
+      "type": "corporate-sponsor",
+      "covers": "Production, branding, employee engagement events",
+      "rangeUSD": "$25K-$50K",
+      "probability": "medium-high",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "applicationTimeline": "Direct outreach; 6-12 weeks to commit",
+      "ourTiming": "Outreach Week 5; commitment by Week 10",
+      "contactPath": "CSR/Community Affairs at Adobe, Google, LinkedIn, Cisco",
+      "tieredLevels": [
+        { "tier": "Presenting Sponsor", "amount": "$50K+" },
+        { "tier": "Supporting Sponsor", "amount": "$25K" },
+        { "tier": "Friend", "amount": "$10K" }
+      ]
+    },
+    {
+      "id": "corp-sponsor-seattle",
+      "name": "Corporate Sponsor #2 (Seattle Tech)",
+      "type": "corporate-sponsor",
+      "covers": "Production, branding, employee engagement events",
+      "rangeUSD": "$25K-$50K",
+      "probability": "medium-high",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "applicationTimeline": "Direct outreach",
+      "ourTiming": "Outreach Week 5; commitment by Week 10",
+      "contactPath": "Microsoft Philanthropies, Amazon (CGI Seattle has VP relationship), TCS, Infosys"
+    },
+    {
+      "id": "ticket-revenue",
+      "name": "Ticket Revenue",
+      "type": "earned-revenue",
+      "covers": "Production gap funding",
+      "rangeUSD": "$20K-$40K",
+      "probability": "high",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "ourTiming": "Sales launch Week 11",
+      "notes": "Tiered pricing $15-$75; balance access vs revenue"
+    },
+    {
+      "id": "individual-donors",
+      "name": "Individual Donors / Crowdfund",
+      "type": "individual-donations",
+      "covers": "Any line item",
+      "rangeUSD": "$10K-$25K",
+      "probability": "medium",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationTimeline": "Launch after fiscal sponsor live",
+      "ourTiming": "Soft launch Week 4-5; full campaign Week 11",
+      "contactPath": "Indian-American community in Seattle and Bay Area",
+      "notes": "Use Fundraising by Fractured Atlas (no extra fees)"
+    },
+    {
+      "id": "california-arts-council",
+      "name": "California Arts Council Grant",
+      "type": "state-government-grant",
+      "covers": "Project programming in California",
+      "rangeUSD": "$5K-$20K",
+      "probability": "medium",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationTimeline": "Cycles vary; check current RFP",
+      "applicationUrl": "https://arts.ca.gov",
+      "ourTiming": "Submit Week 7 if open",
+      "contactPath": "Direct application via website"
+    },
+    {
+      "id": "4culture-grant",
+      "name": "4Culture (King County, WA)",
+      "type": "county-government-grant",
+      "covers": "Seattle-side project programming",
+      "rangeUSD": "$5K-$15K",
+      "probability": "medium",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationTimeline": "Rolling cycles",
+      "applicationUrl": "https://www.4culture.org",
+      "ourTiming": "Submit Week 7 if open",
+      "notes": "Has funded Seattle Center Festal Indian programming previously"
+    },
+    {
+      "id": "acta-living-cultures",
+      "name": "ACTA Living Cultures Grant",
+      "type": "state-allied-grant",
+      "covers": "Traditional arts programming in California",
+      "rangeUSD": "$5K-$10K",
+      "probability": "medium",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationUrl": "https://actaonline.org",
+      "ourTiming": "Submit Week 7 if applicable",
+      "notes": "The Music Circle (LA, Ravi Shankar's org) has received multiple Living Cultures grants — direct precedent"
+    },
+    {
+      "id": "us-embassy-pas-grant",
+      "name": "US Embassy New Delhi PAS Small Grant",
+      "type": "us-government-grant",
+      "covers": "US-India cultural programming",
+      "rangeUSD": "$10K-$50K",
+      "probability": "low-medium-timeline-risk",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationTimeline": "3-6 month review cycle",
+      "applicationUrl": "https://www.grants.gov",
+      "ourTiming": "Submit Week 6 if RFP open",
+      "contactPath": "exchangesIndia@state.gov",
+      "notes": "Risky on our timeline; submit as stretch upside"
+    },
+    {
+      "id": "in-kind",
+      "name": "In-Kind Contributions",
+      "type": "in-kind",
+      "covers": "Venue, technical equipment, food, hospitality",
+      "rangeUSD": "$30K-$50K equivalent value",
+      "probability": "high",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner", "indian-focal-sponsor"],
+      "ourTiming": "Negotiate Week 5-7",
+      "notes": "Universities often waive venue rental for academic-affiliated events"
+    },
+    {
+      "id": "nea-grants-arts-projects",
+      "name": "NEA Grants for Arts Projects",
+      "type": "us-federal-grant",
+      "covers": "Arts project funding",
+      "rangeUSD": "$10K-$100K",
+      "probability": "year-2-only",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationTimeline": "Annual deadlines, 6+ month review",
+      "applicationUrl": "https://www.arts.gov",
+      "ourTiming": "Plan for Year 2",
+      "notes": "Cycle is too long for Year 1"
+    },
+    {
+      "id": "washington-state-arts",
+      "name": "Washington State Arts Commission (ArtsWA)",
+      "type": "state-government-grant",
+      "covers": "Project & touring grants",
+      "rangeUSD": "$5K-$20K",
+      "probability": "medium",
+      "compatibleWithStructure": ["fiscal-sponsor", "indian-501c3-partner"],
+      "applicationUrl": "https://www.arts.wa.gov",
+      "ourTiming": "Check current cycles"
+    }
+  ],
+  "summary": {
+    "leanPilotBudget": 175000,
+    "midPilotBudget": 225000,
+    "ambitiousPilotBudget": 275000,
+    "recommendedTarget": 225000,
+    "scopeNote": "Seattle-led bi-coastal: 3 days Seattle + 1 flagship evening Bay Area. Seattle-based team reduces travel/coordination costs."
+  },
+  "budgetAllocation": [
+    { "category": "Artist fees & honoraria", "amount": 60000, "percent": 27 },
+    { "category": "Artist travel & accommodation", "amount": 40000, "percent": 18 },
+    { "category": "Venue rentals", "amount": 35000, "percent": 16 },
+    { "category": "Production (tech, staff, lighting, sound)", "amount": 30000, "percent": 13 },
+    { "category": "Marketing & press", "amount": 15000, "percent": 7 },
+    { "category": "P-3 visa legal + USCIS fees", "amount": 10000, "percent": 4 },
+    { "category": "Insurance & administrative", "amount": 8000, "percent": 4 },
+    { "category": "Fiscal sponsor fees (8%)", "amount": 18000, "percent": 8 },
+    { "category": "Contingency", "amount": 9000, "percent": 4 }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "consulates": [
+    {
+      "id": "cgi-seattle",
+      "name": "Consulate General of India, Seattle",
+      "shortName": "CGI Seattle",
+      "consulGeneral": "Prakash Gupta",
+      "established": "November 2023",
+      "address": "Federal Reserve Building, 1015 2nd Avenue, Suite 100 & 1100, Seattle, WA 98104",
+      "phone": "+1-206-803-0500",
+      "contactEmail": "hoc.seattle@mea.gov.in",
+      "contactNote": "Email hoc.seattle@mea.gov.in for non-consular matters including cultural partnerships",
+      "jurisdiction": ["Alaska", "Idaho", "Montana", "Nebraska", "North Dakota", "Oregon", "South Dakota", "Washington"],
+      "website": "https://indiainseattle.gov.in",
+      "tier": 1,
+      "priority": "highest",
+      "culturalProgrammingTrackRecord": [
+        "India Culture Week at Seattle University (Nov 2024)",
+        "Swami Vivekananda Monument with ICCR & City of Seattle (Apr 2026)",
+        "Swami Vivekananda Statue at Westlake Square",
+        "First India Day Parade Seattle (Aug 2025) — all 28 states",
+        "First Baisakhi at WA State Capitol (Apr 2025)",
+        "India Showcased at Asia Pacific Cultural Center, Tacoma (Mar 2025)"
+      ],
+      "keyPartners": [
+        "Seattle University",
+        "University of Washington",
+        "Bastyr University",
+        "Roundglass India Center",
+        "Asia Pacific Cultural Center",
+        "City of Seattle",
+        "Washington State Senate"
+      ],
+      "whyTheyMatter": "Most active consulate on West Coast for cultural programming. India Culture Week 2024 is the clearest precedent template for our festival. Active state-government engagement across the 8-state jurisdiction."
+    },
+    {
+      "id": "cgi-sf",
+      "name": "Consulate General of India, San Francisco",
+      "shortName": "CGI SF",
+      "consulGeneral": "Dr. K. Srikar Reddy",
+      "established": "Established (long-running)",
+      "address": "71 Stevenson Street, Suite 2200, San Francisco, CA 94105",
+      "phone": "+1-415-891-4080",
+      "contactEmail": "Contact via CG office; check website for cultural affairs email",
+      "jurisdiction": ["California", "Alaska", "Arizona", "Hawaii", "Idaho", "Montana", "Nevada", "Oregon", "Utah", "Washington", "Wyoming", "Guam"],
+      "jurisdictionNote": "Some states are shared jurisdiction with Seattle; Seattle has primary for PNW",
+      "website": "https://www.cgisf.gov.in",
+      "tier": 1,
+      "priority": "high",
+      "culturalProgrammingTrackRecord": [
+        "Swami Vivekananda 125th Anniversary Musical Tribute at Center for the Performing Arts, San Jose (Jul 2025)",
+        "ICCR 77th Foundation Day celebration (2025)",
+        "International Day of Yoga at Golden Gate Bridge (annual)",
+        "San Jose ICAC (Indian Consular Application Centre) launch",
+        "Partnerships with Vedanta Society, Berkeley",
+        "Attorney General of India and California AG meetings at Consulate"
+      ],
+      "keyPartners": [
+        "Vedanta Society, Berkeley",
+        "Stanford University",
+        "UC Berkeley",
+        "San Jose State University",
+        "Art of Living",
+        "Brahma Kumaris",
+        "Isha Foundation"
+      ],
+      "whyTheyMatter": "Established consulate with deep institutional relationships. Proven ability to activate top-tier Indian classical artists and major venues. Jurisdiction covers 12 states including California."
+    },
+    {
+      "id": "cgi-la",
+      "name": "Consulate General of India, Los Angeles",
+      "shortName": "CGI LA",
+      "consulGeneral": "Dr. K.J. Srinivasa",
+      "established": "Early 2026",
+      "address": "707 Wilshire Blvd, Suite 4500, Los Angeles, CA 90017",
+      "phone": "Check consulate website",
+      "contactEmail": "Contact via consulate website",
+      "jurisdiction": ["Generally overlapping with SF", "Check with consulate"],
+      "website": "https://www.indiainla.gov.in",
+      "tier": 2,
+      "priority": "year-2-focus",
+      "culturalProgrammingTrackRecord": [
+        "Launch event with India International Impact and American South Asian Network (Jan 2026)",
+        "Eric Garcetti participation (former US Ambassador to India)",
+        "Asia Society Southern California engagement"
+      ],
+      "keyPartners": [
+        "Asia Society Southern California",
+        "American South Asian Network (ASAN)",
+        "India International Impact",
+        "City of Los Angeles Office of International Affairs",
+        "U.S. Department of Commerce"
+      ],
+      "whyTheyMatter": "New consulate hungry for marquee cultural engagements. Strong Year 2 expansion target once Seattle+Bay Area pilot is proven. LA Olympics 2028 narrative creates long-term cultural framing."
+    },
+    {
+      "id": "embassy-dc",
+      "name": "Embassy of India, Washington D.C.",
+      "shortName": "Embassy DC",
+      "consulGeneral": "Ambassador of India to the US",
+      "established": "Long-running",
+      "address": "Washington D.C.",
+      "contactEmail": "fspic.washington@mea.gov.in",
+      "contactNote": "fspic.washington@mea.gov.in is the cultural affairs contact",
+      "jurisdiction": ["Federal / nationwide"],
+      "website": "https://www.indianembassyusa.gov.in",
+      "tier": 2,
+      "priority": "supportive",
+      "culturalProgrammingTrackRecord": [
+        "Federal-level liaison for ICCR",
+        "Arts/Culture division operations",
+        "Education & exchange programs",
+        "Cultural events calendar"
+      ],
+      "whyTheyMatter": "For any bi-coastal program, looping Embassy DC in provides federal-level cover. Primary US liaison to ICCR HQ in Delhi."
+    }
+  ]
+}
