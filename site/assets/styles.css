@@ -300,7 +300,7 @@ body {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
-  .layout { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: 1fr; gap: 14px; padding: 14px 12px 36px; }
   .sidebar {
     position: static; max-height: none;
     display: none;
@@ -309,9 +309,22 @@ body {
   .nav-toggle { display: inline-block; }
   .dash-grid, .card-grid, .kpi-row { grid-template-columns: 1fr; }
   .two-col { grid-template-columns: 1fr; }
-  .view { padding: 20px 18px 28px; }
-  .hero { padding: 22px; }
-  .hero h1 { font-size: 1.6rem; }
+  .view { padding: 16px 14px 24px; }
+  .hero { padding: 18px; }
+  .hero h1 { font-size: 1.45rem; }
+  .hero p { font-size: .92rem; }
+  /* timeline stacks vertically on mobile */
+  .timeline-item { grid-template-columns: 1fr; gap: 6px; }
+  .timeline-item .week { font-size: .85rem; }
+  /* filter bar: full-width inputs on mobile */
+  .filter-bar { flex-direction: column; align-items: stretch; }
+  .filter-bar input, .filter-bar select { min-width: unset; width: 100%; }
+  .filter-bar .count { margin-left: 0; }
+  /* cards readable at small widths */
+  .card .kv { grid-template-columns: 90px 1fr; }
+  .brand-text strong { font-size: .95rem; }
+  .topbar-inner { padding: 10px 14px; }
+  .view h1 { font-size: 1.5rem; }
 }
 @media (min-width: 961px) and (max-width: 1200px) {
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
